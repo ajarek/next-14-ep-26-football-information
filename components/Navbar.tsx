@@ -25,13 +25,13 @@ const Navbar = () => {
               href='/'
               className='text-3xl font-bold flex justify-center items-center'
             >
-              {/* <Image
-                src={'/images/plant-icon.png'}
+              <Image
+                src={'/images/football.svg'}
                 alt='icon'
                 width={40}
                 height={40}
                 className='bg-white rounded-sm mr-2'
-              /> */}
+              />
               Football Info
             </Link>
           </div>
