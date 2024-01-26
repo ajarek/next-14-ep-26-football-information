@@ -11,8 +11,9 @@ const Navbar = () => {
  
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const navLinks = [
-    { href: '/', label: 'Home' },
-    { href: '/contact', label: 'Contact' },
+    { href: 'https://www.scorebat.com/england-premier-league-live-scores-1/', label: 'PREMIER LEAGUE' },
+    { href: 'https://www.scorebat.com/spain-la-liga-live-scores/', label: 'LA LIGA' },
+    { href: 'https://www.scorebat.com/italy-serie-a-live-scores/', label: 'SERIE A' },
   ]
   const { theme, setTheme } = useTheme()
 
@@ -42,6 +43,7 @@ const Navbar = () => {
                 <Link
                   href={item.href}
                   className='font-montserrat leading-normal text-lg text-slate-gray'
+                  target='_blank'
                 >
                   {item.label}
                 </Link>
