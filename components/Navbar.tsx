@@ -6,14 +6,21 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { ModeToggle } from './mode-toggle'
 
-
 const Navbar = () => {
- 
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const navLinks = [
-    { href: 'https://www.scorebat.com/england-premier-league-live-scores-1/', label: 'PREMIER LEAGUE' },
-    { href: 'https://www.scorebat.com/spain-la-liga-live-scores/', label: 'LA LIGA' },
-    { href: 'https://www.scorebat.com/italy-serie-a-live-scores/', label: 'SERIE A' },
+    {
+      href: 'https://www.scorebat.com/england-premier-league-live-scores-1/',
+      label: 'PREMIER LEAGUE',
+    },
+    {
+      href: 'https://www.scorebat.com/spain-la-liga-live-scores/',
+      label: 'LA LIGA',
+    },
+    {
+      href: 'https://www.scorebat.com/italy-serie-a-live-scores/',
+      label: 'SERIE A',
+    },
   ]
   const { theme, setTheme } = useTheme()
 
@@ -50,7 +57,6 @@ const Navbar = () => {
               </li>
             ))}
 
-           
             <ModeToggle />
           </ul>
 
@@ -103,9 +109,7 @@ const Navbar = () => {
             <Link
               href='/cart'
               className='flex'
-            >
-             
-            </Link>
+            ></Link>
             <ModeToggle />
           </ul>
         </div>

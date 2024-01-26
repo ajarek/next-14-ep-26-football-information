@@ -1,6 +1,5 @@
 import { notFound } from 'next/navigation'
 import Image from 'next/image'
-import ReactMarkdown from 'react-markdown'
 import { getMatchesFootball } from '@/api'
 import Link from 'next/link'
 
@@ -18,13 +17,14 @@ const ProductId = async ({ params }: { params: { id: string } }) => {
       <div className=' flex items-center justify-center '>
         <Image
           src={
-            itemId.thumbnail !== null || itemId.thumbnail !== undefined ? itemId.thumbnail
+            itemId.thumbnail !== null || itemId.thumbnail !== undefined
+              ? itemId.thumbnail
               : '/images/football.svg'
           }
           alt={itemId.title}
           width={360}
           height={360}
-          loading="lazy"
+          loading='lazy'
           style={{
             width: '360px',
             height: '360px',
