@@ -1,5 +1,11 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+<img width="300" alt="Zrzut ekranu 2024-01-26 231936" src="https://github.com/ajarek/next-14-ep-26-football-information/assets/61388692/c7f7321f-a64b-49e8-8234-f923a9fdfa6b">
+<img width="300" alt="Zrzut ekranu 2024-01-26 232031" src="https://github.com/ajarek/next-14-ep-26-football-information/assets/61388692/b9813f6c-1184-4b04-bfa3-59bfafad3651">
+<img width="150" alt="Zrzut ekranu 2024-01-26 232106" src="https://github.com/ajarek/next-14-ep-26-football-information/assets/61388692/73c3e463-0988-4c6c-9564-a66382534099">
+<img width="150" alt="Zrzut ekranu 2024-01-26 232143" src="https://github.com/ajarek/next-14-ep-26-football-information/assets/61388692/5d76d234-0a36-4c92-98fe-5855c68cc53f">
+
+
 ## Getting Started
 
 First, run the development server:
